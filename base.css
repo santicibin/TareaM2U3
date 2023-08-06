@@ -8,15 +8,16 @@ body {
 }
 #contenedor {
 	width: 800px;
-	background: #8FA68E;
-	margin-right:auto;
-	margin-left:auto;
 	overflow: hidden;
 }
+h1 {
+	background: #8FA68E;
+}
+
 nav {
 	background: #CC3910;
 	float: left;
-	width: 160px;
+	width: 200px;
 }
 ul {
 	list-style-type:none ;
@@ -38,20 +39,23 @@ aside {
 }
 
 @media screen and (max-width: 800px) {
-	.h1 {
-
+	h1 {
+		margin: 0;
+		font-size: 80px;
+	}
+	nav{
+		font-size: 25px;
 		width: 100%;
-	}
-
-	.nav {
-		width: 80px;
+		background-color: orange;
 		}
-	.section {
-		text-align: left;
-		width: 200px;
+	section {
+		margin: 0;
+		width: 100%;
+		font-size: 30px;
 	}
-	.aside  {
-		text-align: left;
-		width: 100px;	
+	aside  {
+		margin: 0;
+		font-size: 25px;
+		width: 100%	
 	}
 }
